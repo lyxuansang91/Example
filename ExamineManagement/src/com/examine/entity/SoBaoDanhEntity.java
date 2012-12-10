@@ -12,6 +12,25 @@ public class SoBaoDanhEntity {
 	private String oSoBaoDanh;
 	private String oMaThiSinh;
 	private String oMaKhoa;
+	private String oMaTruong;
+	
+	
+	
+	
+	
+	/**
+	 * @param oSoBaoDanh
+	 * @param oMaThiSinh
+	 * @param oMaKhoa
+	 * @param oMaTruong
+	 */
+	public SoBaoDanhEntity(String oSoBaoDanh, String oMaThiSinh,
+			String oMaKhoa, String oMaTruong) {
+		this.oSoBaoDanh = oSoBaoDanh;
+		this.oMaThiSinh = oMaThiSinh;
+		this.oMaKhoa = oMaKhoa;
+		this.oMaTruong = oMaTruong;
+	}
 	/**
 	 * 
 	 */
@@ -22,11 +41,7 @@ public class SoBaoDanhEntity {
 	 * @param oMaThiSinh
 	 * @param oMaKhoa
 	 */
-	public SoBaoDanhEntity(String oSoBaoDanh, String oMaThiSinh, String oMaKhoa) {
-		this.oSoBaoDanh = oSoBaoDanh;
-		this.oMaThiSinh = oMaThiSinh;
-		this.oMaKhoa = oMaKhoa;
-	}
+	
 	/**
 	 * @return the oSoBaoDanh
 	 */
@@ -62,6 +77,18 @@ public class SoBaoDanhEntity {
 	 */
 	public void setMaKhoa(String oMaKhoa) {
 		this.oMaKhoa = oMaKhoa;
+	}
+	/**
+	 * @return the oMaTruong
+	 */
+	public String getMaTruong() {
+		return oMaTruong;
+	}
+	/**
+	 * @param oMaTruong the oMaTruong to set
+	 */
+	public void setMaTruong(String oMaTruong) {
+		this.oMaTruong = oMaTruong;
 	}
 	
 }

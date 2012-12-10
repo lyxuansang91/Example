@@ -11,12 +11,7 @@ public class PhachEntity {
 	private String oMaPhach;
 	private String oSoBaoDanh;
 	private String oMaMon;
-	private String oMaPhong;
-	
-	
-	
-	
-	
+	private String oMaPhong;	
 	/**
 	 * 
 	 */
